@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52D784BB-6374-42A0-9F5E-1E0903484202}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TheCoffeeClub</RootNamespace>
+    <AssemblyName>TheCoffeeClub</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAO\CoffeeServer.cs" />
+    <Compile Include="DAO\ICoffeeDAO.cs" />
+    <Compile Include="DAO\IOwnerDAO.cs" />
+    <Compile Include="DAO\OwnerServer.cs" />
+    <Compile Include="Model\CoffeeModel.cs" />
+    <Compile Include="Model\CustomerModel.cs" />
+    <Compile Include="Model\OwnerModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\MenuUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MenuUI.Designer.cs">
+      <DependentUpon>MenuUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OwnerControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OwnerControl.Designer.cs">
+      <DependentUpon>OwnerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OwnerDashBoardUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OwnerDashBoardUI.Designer.cs">
+      <DependentUpon>OwnerDashBoardUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OwnerItemControlUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OwnerItemControlUI.Designer.cs">
+      <DependentUpon>OwnerItemControlUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OwnerLoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OwnerLoginUI.Designer.cs">
+      <DependentUpon>OwnerLoginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OwnerRegistrationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OwnerRegistrationUI.Designer.cs">
+      <DependentUpon>OwnerRegistrationUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TheCoffeeClubUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TheCoffeeClubUI.Designer.cs">
+      <DependentUpon>TheCoffeeClubUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\MenuUI.resx">
+      <DependentUpon>MenuUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OwnerControl.resx">
+      <DependentUpon>OwnerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OwnerDashBoardUI.resx">
+      <DependentUpon>OwnerDashBoardUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OwnerItemControlUI.resx">
+      <DependentUpon>OwnerItemControlUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OwnerLoginUI.resx">
+      <DependentUpon>OwnerLoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OwnerRegistrationUI.resx">
+      <DependentUpon>OwnerRegistrationUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TheCoffeeClubUI.resx">
+      <DependentUpon>TheCoffeeClubUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\TheCoffeeClub.DAO.CoffeeServer.datasource" />
+    <None Include="Properties\DataSources\TheCoffeeClub.Model.CoffeeModel.datasource" />
+    <None Include="Properties\DataSources\TheCoffeeClub.Model.CustomerModel.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\bin\Debug\TheCoffeeClub.exe.config
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\bin\Debug\TheCoffeeClub.exe
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\bin\Debug\TheCoffeeClub.pdb
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.csproj.AssemblyReference.cache
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.csproj.SuggestedBindingRedirects.cache
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.Properties.Resources.resources
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.UI.TheCoffeeClubUI.resources
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.csproj.GenerateResource.cache
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.csproj.CoreCompileInputs.cache
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.exe
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.pdb
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.UI.OwnerLoginUI.resources
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.UI.OwnerItemControlUI.resources
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.UI.OwnerDashBoardUI.resources
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.UI.OwnerRegistrationUI.resources
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.UI.OwnerControl.resources
+C:\Users\htooa\Desktop\The coffee club\TheCoffeeClub\TheCoffeeClub\obj\Debug\TheCoffeeClub.UI.MenuUI.resources
